@@ -50,7 +50,7 @@ const Cart = () => {
             <div key={cartItem.productId} className='cartItem'>
 
               <Link className='cartImages' to={`/productdetails/${cartItem.productId}`}>
-                <img src={cartItem.image} />
+                <img src={cartItem.image} alt="cart" />
               </Link>
               <div className='cartDetails'>
                 <p id='cartTitle'>{cartItem.title}</p>
