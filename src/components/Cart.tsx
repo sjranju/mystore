@@ -11,7 +11,7 @@ import { AiOutlineClose } from "react-icons/ai"
 const Cart = () => {
   const { cartItems, setCartItems } = useContext(CartContext)
   let cartItemsClone = cloneDeep(cartItems)
-  let totalPrice = Math.floor(cartItems?.reduce((price, cartItem) => price + (cartItem.price * cartItem.quantity * 30), 0)!  0);
+  let totalPrice = Math.floor(cartItems?.reduce((price, cartItem) => price + (cartItem.price * cartItem.quantity * 30), 0)! ?? 0);
   let discountPrice = Math.floor(cartItems?.reduce((price, cartItem) => price + (cartItem.price * cartItem.quantity * 18), 0)! ?? 0);
   let discount = totalPrice - discountPrice;
 

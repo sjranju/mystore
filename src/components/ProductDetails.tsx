@@ -139,7 +139,7 @@ const ProductDetails = () => {
             <Link className='breadcrumbs-link' to='/'>Home</Link> / <Link className='breadcrumbs-link' to={`/${product.category}`}>{product.category}</Link>
           </div>
           <h2 className='title'>{product.title}</h2>
-          <img src={product.image} />
+          <img src={product.image} alt="product" />
           <div className='productPrice'>
             <ComputeProductPrice price={product.price} />
           </div>
