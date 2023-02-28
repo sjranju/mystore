@@ -19,7 +19,7 @@ function App() {
           <div className="App">
             <Navbar />
             <Routes>
-              <Route exact path='/' element={< MainPage />}></Route>
+              <Route exact path='/mystore' element={< MainPage />}></Route>
               <Route path="/men's clothing" element={< Categories category="men's clothing" />}></Route>
               <Route path="/women's clothing" element={< Categories category="women's clothing" />}></Route>
               <Route path='/electronics' element={< Categories category='electronics' />}></Route>
