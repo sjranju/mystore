@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mystore/static/css/main.5c795810.css",
+    "main.js": "/mystore/static/js/main.f3b5a93d.js",
+    "static/js/787.dd20aa60.chunk.js": "/mystore/static/js/787.dd20aa60.chunk.js",
+    "static/media/men.jpg": "/mystore/static/media/men.b73afaeb76e2a00d730a.jpg",
+    "static/media/women.jpg": "/mystore/static/media/women.249fc14142e7d72fa0e2.jpg",
+    "static/media/elec5.jpg": "/mystore/static/media/elec5.d50af5e6eb36095e9022.jpg",
+    "static/media/electronic.jpg": "/mystore/static/media/electronic.db2bf3f575fd5acc3dcb.jpg",
+    "static/media/jewel7.jpg": "/mystore/static/media/jewel7.cfab123cc7569d910091.jpg",
+    "static/media/jewel1.jpg": "/mystore/static/media/jewel1.f4147994115120252fb9.jpg",
+    "static/media/shopWomen.jpg": "/mystore/static/media/shopWomen.1a4340b573fc68045017.jpg",
+    "static/media/men4.jpg": "/mystore/static/media/men4.ddba0501b1ff1cad30e3.jpg",
+    "static/media/shoppingcartmd.jpg": "/mystore/static/media/shoppingcartmd.a6a683dc03b8b5d1a526.jpg",
+    "index.html": "/mystore/index.html",
+    "main.5c795810.css.map": "/mystore/static/css/main.5c795810.css.map",
+    "main.f3b5a93d.js.map": "/mystore/static/js/main.f3b5a93d.js.map",
+    "787.dd20aa60.chunk.js.map": "/mystore/static/js/787.dd20aa60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c795810.css",
+    "static/js/main.f3b5a93d.js"
+  ]
+}
