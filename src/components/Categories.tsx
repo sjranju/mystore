@@ -54,7 +54,7 @@ const Categories = (props: PropType) => {
                             <div key={id} className='products'>
                                 <div className='productDetails'>
 
-                                    <Link className='productImage' to={`/mystore/productdetails/${id}`}>
+                                    <Link className='productImage' to={`/productdetails/${id}`}>
                                         <img src={image} />
                                     </Link>
                                     <p className='productTitle'>{title}</p>

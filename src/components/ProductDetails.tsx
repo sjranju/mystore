@@ -136,7 +136,7 @@ const ProductDetails = () => {
       <div className='mainContentContainer'>
         <div key={id} className='selectedProduct'>
           <div className='breadcrumbs-container'>
-            <Link className='breadcrumbs-link' to='/mystore'>Home</Link> / <Link className='breadcrumbs-link' to={`/mystore/${product.category}`}>{product.category}</Link>
+            <Link className='breadcrumbs-link' to='/'>Home</Link> / <Link className='breadcrumbs-link' to={`/${product.category}`}>{product.category}</Link>
           </div>
           <h2 className='title'>{product.title}</h2>
           <img src={product.image} alt="product" />
