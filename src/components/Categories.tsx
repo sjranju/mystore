@@ -27,7 +27,7 @@ const Categories = (props: PropType) => {
                     console.log(res.clone().json())
                     const response = await res.json()
                     setproducts(response)
-                    
+
                 })
                 .catch(error => console.log(error))
         }
@@ -54,7 +54,7 @@ const Categories = (props: PropType) => {
                             <div key={id} className='products'>
                                 <div className='productDetails'>
 
-                                    <Link className='productImage' to={`/productdetails/${id}`}>
+                                    <Link className='productImage' to={`/mystore/productdetails/${id}`}>
                                         <img src={image} />
                                     </Link>
                                     <p className='productTitle'>{title}</p>
@@ -62,8 +62,8 @@ const Categories = (props: PropType) => {
                                         {/* <p className='discountPrice'>₹{discount}  </p>
                                         <p className='actualPrice'>₹{cost}</p>
                                         <p className='discountPercent'>({discountPercent}% OFF)</p> */}
-                                        <ComputeProductPrice price={price}/>
-                                        
+                                        <ComputeProductPrice price={price} />
+
                                     </div>
                                 </div>
                             </div>

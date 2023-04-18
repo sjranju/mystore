@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 import MainPage from './components/MainPage.tsx';
 import Categories from './components/Categories.tsx';
 import Navbar from './components/Navbar';
@@ -15,11 +15,11 @@ function App() {
   return (
     <CartContextProvider>
       <PriceDetailsProvider>
-        <Router>
+        <HashRouter>
           <div className="App">
             <Navbar />
             <Routes>
-              <Route exact path='/mystore' element={< MainPage />}></Route>
+              <Route path='/' element={< MainPage />}></Route>
               <Route path="/men's clothing" element={< Categories category="men's clothing" />}></Route>
               <Route path="/women's clothing" element={< Categories category="women's clothing" />}></Route>
               <Route path='/electronics' element={< Categories category='electronics' />}></Route>
@@ -30,7 +30,7 @@ function App() {
             </Routes>
             <Toaster className="toast-message" style={{ width: "2000px" }} delay={3000} position='top-right' />
           </div>
-        </Router>
+        </HashRouter>
       </PriceDetailsProvider>
     </CartContextProvider>
   );
