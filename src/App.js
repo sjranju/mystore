@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import MainPage from './components/MainPage.tsx';
 import Categories from './components/Categories.tsx';
 import Navbar from './components/Navbar';
